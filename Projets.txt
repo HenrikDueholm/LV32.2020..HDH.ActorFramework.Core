@@ -1,0 +1,15 @@
+Actor\Actor Framework\Actor Framework.lvproj	HDH.Actor Framework.Core.Actor	PPL edition of the NI actor framework.
+Utility\Utility.lvproj	HDH.Actor Framework.Core.Utility	Utility functions for the framework.
+Messages\Msg\Msg.lvproj	HDH.Actor Framework.Core.Msg	Important messages for the framework.
+Actor\Publisher\Publisher.lvproj	HDH.Actor Framework.Core.Publisher	Publisher actor for management of application message flow.
+Actor\Sequencer\Sequencer.lvproj	HDH.Actor Framework.Core.Sequencer	Sequencer actor that can execute sequences, cycles and loops.
+Actor\Data Repository\Data Repository.lvproj	HDH.Actor Framework.Core.Data Repository	Data Repository actor will subscribe to all data and maintain a copy of the most recent value of any data type (by class) and make this copy accessible.
+Actor\Data Tracker\Data Tracker.lvproj	HDH.Actor Framework.Core.Data Tracker	Data Tracker actor can setup a temporary subscription and return all acquired data when the tracking is stopped (Remember to setup a msg class to handle data evaluation).
+Actor\Graph\Graph.lvproj	HDH.Actor Framework.Core.Graph	Graph actor can subscribe to a datatype and plot it when a value is recieved. Subscription data type(s) must be configured before launch (populate private data).
+Actor\File Writer\File Writer.lvproj	HDH.Actor Framework.Core.File Writer	Parent implementation for file write actors.
+Actor\File Writer_TDMS\File Writer_TDMS.lvproj	HDH.Actor Framework.Core.File Writer_TDMS	TDMS implementation (child) of the file writer actor.
+Instrument\Driver\Instrument Driver.lvproj	HDH.Actor Framework.Core.Instrument Driver	Contains the parent of the common driver class
+Instrument\Detection\Instrument Detection.lvproj		Contains files and classes for use in instrument detection. This is still not complete so there is no PPL yet.
+Actor\Instrument Handler\Instrument Handler.lvproj	Contains the parents of the Instrument Msg classes as well as the Instrument Handler actor that should manage all instrument interactions and own all drivers.
+Templates\Driver\Driver Project.lvproj		Contains a driver template project.
+Test\Framework\Framework Test.lvproj		Test VIs for the framework (all tests are so far manual!).

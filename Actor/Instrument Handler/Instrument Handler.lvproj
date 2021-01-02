@@ -1,0 +1,328 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<Project Type="Project" LVVersion="20008000">
+	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
+		<Property Name="server.tcp.port" Type="Int">0</Property>
+		<Property Name="server.tcp.serviceName" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.tcp.serviceName.default" Type="Str">My Computer/VI Server</Property>
+		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
+		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="PPL" Type="Folder">
+			<Item Name="HDH.Actor Framework.Core.Sequencer.lvlibp" Type="LVLibp" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp">
+				<Item Name="Messages for this Actor" Type="Folder">
+					<Item Name="Batch End Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Messages/Batch End Msg/Batch End Msg.lvclass"/>
+					<Item Name="Batch Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Messages/Batch Msg/Batch Msg.lvclass"/>
+					<Item Name="Cycle Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Messages/Cycle Msg/Cycle Msg.lvclass"/>
+					<Item Name="Flush Sequncer Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Messages/Flush Sequncer Msg/Flush Sequncer Msg.lvclass"/>
+					<Item Name="Interrupt Sequncer Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Messages/Interrupt Sequncer Msg/Interrupt Sequncer Msg.lvclass"/>
+					<Item Name="Load and Run Sequence Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Messages/Load and Run Sequence Msg/Load and Run Sequence Msg.lvclass"/>
+					<Item Name="Load Failure Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Messages/Load Failure Msg/Load Failure Msg.lvclass"/>
+					<Item Name="Loop Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Messages/Loop Msg/Loop Msg.lvclass"/>
+					<Item Name="Nested Sequence Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Messages/Nested Sequence Msg/Nested Sequence Msg.lvclass"/>
+					<Item Name="Sequencer Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Messages/Sequencer Msg/Sequencer Msg.lvclass"/>
+					<Item Name="Terminate Sequencer Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Messages/Terminate Sequncer Msg/Terminate Sequencer Msg.lvclass"/>
+					<Item Name="Wait Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Messages/Wait Msg/Wait Msg.lvclass"/>
+				</Item>
+				<Item Name="Sequence Editor" Type="Folder">
+					<Item Name="Compiler" Type="Folder">
+						<Item Name="Compile Recursivly.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Compile Recursivly.vi"/>
+						<Item Name="Flex Msg Populate and Override.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Flex Msg Populate and Override.vi"/>
+						<Item Name="Insert Nested Sequences Recursivly.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Insert Nested Sequences Recursivly.vi"/>
+						<Item Name="Set Sequencer Msg Priority.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Set Sequencer Msg Priority.vi"/>
+					</Item>
+					<Item Name="Controls" Type="Folder">
+						<Item Name="Ctl_FlexDataElement.ctl" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Controls/Ctl_FlexDataElement.ctl"/>
+						<Item Name="Ctl_FlexDataElements.ctl" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Controls/Ctl_FlexDataElements.ctl"/>
+						<Item Name="Ctl_MessageListElement.ctl" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Controls/Ctl_MessageListElement.ctl"/>
+						<Item Name="Ctl_SequenceControlElement.ctl" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Controls/Ctl_SequenceControlElement.ctl"/>
+						<Item Name="Ctl_SequenceElement.ctl" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Controls/Ctl_SequenceElement.ctl"/>
+					</Item>
+					<Item Name="Editor" Type="Folder">
+						<Item Name="Edit Message.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Edit Message.vi"/>
+					</Item>
+					<Item Name="File I/O" Type="Folder">
+						<Item Name="Browse for Sequence.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Browse for Sequence.vi"/>
+						<Item Name="Save Sequence.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Save Sequence.vi"/>
+					</Item>
+					<Item Name="subVIs" Type="Folder">
+						<Item Name="Editor Message List Creator.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Editor Message List Creator.vi"/>
+					</Item>
+					<Item Name="Compiler.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Compiler.vi"/>
+					<Item Name="Editor.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Editor.vi"/>
+					<Item Name="Load Sequence.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Load Sequence.vi"/>
+				</Item>
+				<Item Name="Sequencer Core" Type="Folder">
+					<Item Name="Queue" Type="Folder">
+						<Item Name="Message Priority Queue.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Message Priority Queue/Message Priority Queue.lvclass"/>
+					</Item>
+					<Item Name="Sequencer Core.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer Core/Sequencer Core.lvclass"/>
+				</Item>
+				<Item Name="Utility" Type="Folder">
+					<Item Name="Lvlibp" Type="Folder">
+						<Item Name="Get Lvlibp Messages.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Utility/Get Lvlibp Messages.vi"/>
+					</Item>
+					<Item Name="Tree" Type="Folder">
+						<Item Name="Get Tree Indentation Levels Recursive.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Utility/Get Tree Indentation Levels Recursive.vi"/>
+						<Item Name="Get Tree Indentation Levels.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Utility/Get Tree Indentation Levels.vi"/>
+						<Item Name="Populate Tree with Message Array.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Utility/Populate Tree with Message Array.vi"/>
+					</Item>
+					<Item Name="List Contained Messages.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Utility/List Contained Messages.vi"/>
+				</Item>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Acquire Semaphore.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Acquire Semaphore.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_AddNamedSemaphorePrefix.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_AddNamedSemaphorePrefix.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Check if File or Folder Exists.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.Actor Framework.Core.Sequencer_Check if File or Folder Exists.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Clear Errors.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.Actor Framework.Core.Sequencer_Clear Errors.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Error Cluster From Error Code.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.Actor Framework.Core.Sequencer_Error Cluster From Error Code.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Get File Extension.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.Actor Framework.Core.Sequencer_Get File Extension.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Get LV Class Default Value.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/LVClass/HDH.Actor Framework.Core.Sequencer_Get LV Class Default Value.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Get LV Class Path.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/LVClass/HDH.Actor Framework.Core.Sequencer_Get LV Class Path.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_GetNamedSemaphorePrefix.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_GetNamedSemaphorePrefix.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_List Directory and LLBs.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.Actor Framework.Core.Sequencer_List Directory and LLBs.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_NI_FileType.lvlib" Type="Library" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/HDH.Actor Framework.Core.Sequencer_NI_FileType.lvlib"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/HDH.Actor Framework.Core.Sequencer_NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Not A Semaphore.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Not A Semaphore.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Obtain Semaphore Reference.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Obtain Semaphore Reference.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Recursive File List.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.Actor Framework.Core.Sequencer_Recursive File List.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Release Semaphore Reference.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Release Semaphore Reference.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Release Semaphore.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Release Semaphore.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_RemoveNamedSemaphorePrefix.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Semaphore RefNum" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Semaphore RefNum"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Semaphore Refnum Core.ctl" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Semaphore Refnum Core.ctl"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Trim Whitespace.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.Actor Framework.Core.Sequencer_Trim Whitespace.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Validate Semaphore Size.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Validate Semaphore Size.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_whitespace.ctl" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.Actor Framework.Core.Sequencer_whitespace.ctl"/>
+				<Item Name="Sequencer.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequencer/Sequencer.lvclass"/>
+			</Item>
+			<Item Name="HDH.Actor Framework.Core.Publisher.lvlibp" Type="LVLibp" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp">
+				<Item Name="Messages" Type="Folder">
+					<Item Name="Response Msg" Type="Folder">
+						<Item Name="Controls" Type="Folder">
+							<Item Name="Ctl_SendFunction.ctl" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Messages/Response Msg/Response Core/Controls/Ctl_SendFunction.ctl"/>
+						</Item>
+						<Item Name="Data" Type="Folder">
+							<Item Name="Request Data.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Messages/Response Msg/Data/Request Data/Request Data.lvclass"/>
+						</Item>
+						<Item Name="Response Cores" Type="Folder">
+							<Item Name="Request Reply Core" Type="Folder">
+								<Item Name="Request Reply Core.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Messages/Response Msg/Response Core/Request Reply Core/Request Reply Core.lvclass"/>
+							</Item>
+							<Item Name="Interruptible Reply Core.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Messages/Response Msg/Response Core/Interruptible Reply Core/Interruptible Reply Core.lvclass"/>
+							<Item Name="Response Core.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Messages/Response Msg/Response Core/Response Core/Response Core.lvclass"/>
+							<Item Name="Send and Forget Core.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Messages/Response Msg/Response Core/Send and Forget Core/Send and Forget Core.lvclass"/>
+						</Item>
+						<Item Name="Response Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Messages/Response Msg/Response Msg.lvclass"/>
+					</Item>
+					<Item Name="Timed Msg" Type="Folder">
+						<Item Name="Data" Type="Folder">
+							<Item Name="Multi Data.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Messages/Timed Msg/Data/Multi Data/Multi Data.lvclass"/>
+							<Item Name="Timed Data.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Messages/Timed Msg/Data/Timed Data/Timed Data.lvclass"/>
+						</Item>
+						<Item Name="Timed Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Messages/Timed Msg/Timed Msg.lvclass"/>
+					</Item>
+					<Item Name="Data Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Messages/Data Msg/Data Msg.lvclass"/>
+					<Item Name="Ping Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Messages/Ping Msg/Ping Msg.lvclass"/>
+				</Item>
+				<Item Name="Messages for Sending" Type="Folder">
+					<Item Name="Addressed Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Publisher Messages/Addressed Msg/Addressed Msg.lvclass"/>
+					<Item Name="Bypass Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Publisher Messages/Bypass Msg/Bypass Msg.lvclass"/>
+					<Item Name="Sender Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Publisher Messages/Sender Msg/Sender Msg.lvclass"/>
+					<Item Name="Targetted Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Publisher Messages/Targetted Msg/Targetted Msg.lvclass"/>
+				</Item>
+				<Item Name="Messages for this Actor" Type="Folder">
+					<Item Name="Launch Subscriber Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Publisher Messages/Launch Subscriber Msg/Launch Subscriber Msg.lvclass"/>
+					<Item Name="Publish Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Publisher Messages/Publish Msg/Publish Msg.lvclass"/>
+					<Item Name="Publisher Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Publisher Messages/Publisher Msg/Publisher Msg.lvclass"/>
+					<Item Name="Subscribe Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Publisher Messages/Subscribe Msg/Subscribe Msg.lvclass"/>
+					<Item Name="Unsubscribe Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Publisher Messages/Unsubscribe Msg/Unsubscribe Msg.lvclass"/>
+				</Item>
+				<Item Name="Publisher.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Publisher.lvlibp/Publisher/Publisher.lvclass"/>
+			</Item>
+			<Item Name="HDH.Actor Framework.Core.Actor.lvlibp" Type="LVLibp" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp">
+				<Item Name="Messages" Type="Folder">
+					<Item Name="Message.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/ActorFramework/Message/Message.lvclass"/>
+					<Item Name="Stop Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/ActorFramework/Stop Msg/Stop Msg.lvclass"/>
+					<Item Name="Last Ack.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/ActorFramework/LastAck/Last Ack.lvclass"/>
+					<Item Name="Launch Nested Actor Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/ActorFramework/Launch Nested Actor Msg/Launch Nested Actor Msg.lvclass"/>
+				</Item>
+				<Item Name="Actor.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/ActorFramework/Actor/Actor.lvclass"/>
+				<Item Name="Message Priority Queue.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Priority Queue/Message Priority Queue.lvclass"/>
+				<Item Name="Message Enqueuer.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Enqueuer/Message Enqueuer.lvclass"/>
+				<Item Name="Message Dequeuer.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Dequeuer/Message Dequeuer.lvclass"/>
+				<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Queue/Message Queue.lvclass"/>
+				<Item Name="Init Actor Queues FOR TESTING ONLY.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/ActorFramework/Actor/Init Actor Queues FOR TESTING ONLY.vi"/>
+				<Item Name="AF Debug.lvlib" Type="Library" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/resource/AFDebug/AF Debug.lvlib"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="HDH.Actor Framework.Core.Actor_High Resolution Relative Seconds.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/Utility/HDH.Actor Framework.Core.Actor_High Resolution Relative Seconds.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Actor_Error Cluster From Error Code.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.Actor Framework.Core.Actor_Error Cluster From Error Code.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Actor_Get LV Class Name.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/Utility/LVClass/HDH.Actor Framework.Core.Actor_Get LV Class Name.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Actor_LV Config Read String.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/HDH.Actor Framework.Core.Actor_LV Config Read String.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Actor_Time-Delay Override Options.ctl" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Actor.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/HDH.Actor Framework.Core.Actor_Time-Delay Override Options.ctl"/>
+			</Item>
+			<Item Name="HDH.Data.Generic.lvlibp" Type="LVLibp" URL="../../../../PPL/HDH.Data.Generic.lvlibp">
+				<Item Name="Generic Data" Type="Folder">
+					<Item Name="Boolean Array.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Array Data/Boolean Array/Boolean Array.lvclass"/>
+					<Item Name="Boolean.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Boolean/Boolean.lvclass"/>
+					<Item Name="Cluster Array.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Array Data/Cluster Array/Cluster Array.lvclass"/>
+					<Item Name="Cluster.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Cluster/Cluster.lvclass"/>
+					<Item Name="Data Class Array.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Array Data/Data Class Array/Data Class Array.lvclass"/>
+					<Item Name="Data Class.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Data Class/Data Class.lvclass"/>
+					<Item Name="Double Array.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Array Data/Double Array/Double Array.lvclass"/>
+					<Item Name="Double.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Double/Double.lvclass"/>
+					<Item Name="Enum Array.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Array Data/Enum Array/Enum Array.lvclass"/>
+					<Item Name="Enum.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Enum/Enum.lvclass"/>
+					<Item Name="Generic Array Data.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Array Data/Generic Array Data.lvclass"/>
+					<Item Name="Generic Data.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Data.lvclass"/>
+					<Item Name="I32 Array.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Array Data/I32 Array/I32 Array.lvclass"/>
+					<Item Name="I32.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/I32/I32.lvclass"/>
+					<Item Name="Path Array.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Array Data/Path Array/Path Array.lvclass"/>
+					<Item Name="Path.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Path/Path.lvclass"/>
+					<Item Name="String Array.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Array Data/String Array/String Array.lvclass"/>
+					<Item Name="String.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/String/String.lvclass"/>
+					<Item Name="Time Stamp Array.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Array Data/Time Stamp Array/Time Stamp Array.lvclass"/>
+					<Item Name="Time Stamp.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Time Stamp/Time Stamp.lvclass"/>
+					<Item Name="U32 Array.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Array Data/U32 Array/U32 Array.lvclass"/>
+					<Item Name="U32.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/U32/U32.lvclass"/>
+					<Item Name="Variant.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Variant/Variant.lvclass"/>
+					<Item Name="Waveform Array.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Generic Array Data/Waveform Array/Waveform Array.lvclass"/>
+					<Item Name="Waveform.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Generic Data/Waveform/Waveform.lvclass"/>
+				</Item>
+				<Item Name="Synchronization" Type="Folder">
+					<Item Name="Notifier.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Synchronization/Notifier/Notifier.lvclass"/>
+					<Item Name="Queue.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Synchronization/Queue/Queue.lvclass"/>
+				</Item>
+				<Item Name="Utility" Type="Folder">
+					<Item Name="Get Base Object Name.vi" Type="VI" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Utility/Get Base Object Name.vi"/>
+					<Item Name="Wrap In Generic.vi" Type="VI" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Utility/Wrap In Generic.vi"/>
+				</Item>
+				<Item Name="Data.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Data.Generic.lvlibp/Data.lvclass"/>
+				<Item Name="HDH.Data.Generic_Error Cluster From Error Code.vi" Type="VI" URL="../../../../PPL/HDH.Data.Generic.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.Data.Generic_Error Cluster From Error Code.vi"/>
+				<Item Name="HDH.Data.Generic_Get LV Class Name.vi" Type="VI" URL="../../../../PPL/HDH.Data.Generic.lvlibp/1abvi3w/vi.lib/Utility/LVClass/HDH.Data.Generic_Get LV Class Name.vi"/>
+				<Item Name="HDH.Data.Generic_LVNumericRepresentation.ctl" Type="VI" URL="../../../../PPL/HDH.Data.Generic.lvlibp/1abvi3w/vi.lib/numeric/HDH.Data.Generic_LVNumericRepresentation.ctl"/>
+				<Item Name="HDH.Data.Generic_NI_Data Type.lvlib" Type="Library" URL="../../../../PPL/HDH.Data.Generic.lvlibp/1abvi3w/vi.lib/Utility/Data Type/HDH.Data.Generic_NI_Data Type.lvlib"/>
+			</Item>
+			<Item Name="HDH.Actor Framework.Core.Msg.lvlibp" Type="LVLibp" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp">
+				<Item Name="Flex Msg Support" Type="Folder">
+					<Item Name="Controls" Type="Folder">
+						<Item Name="Ctl_Control Element.ctl" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp/Flex Msg/Controls/Ctl_Control Element.ctl"/>
+					</Item>
+					<Item Name="Data Access Handlers" Type="Folder">
+						<Item Name="Data Access Handler.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp/Flex Msg/Data Access Handlers/Data Access Handler/Data Access Handler.lvclass"/>
+						<Item Name="Get Controls.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp/Flex Msg/Data Access Handlers/Get Controls/Get Controls.lvclass"/>
+						<Item Name="Get Refnum.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp/Flex Msg/Data Access Handlers/Get Refnum/Get Refnum.lvclass"/>
+						<Item Name="Manual Edit.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp/Flex Msg/Data Access Handlers/Manual Edit/Manual Edit.lvclass"/>
+						<Item Name="Set Controls.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp/Flex Msg/Data Access Handlers/Set Controls/Set Controls.lvclass"/>
+					</Item>
+				</Item>
+				<Item Name="Utility" Type="Folder">
+					<Item Name="Display Pop Up.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp/Utility/Display Pop Up.vi"/>
+					<Item Name="Get Actor VI Name.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp/Utility/Get Actor VI Name.vi"/>
+				</Item>
+				<Item Name="Display Pop Up Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp/Display Pop Up Msg/Display Pop Up Msg.lvclass"/>
+				<Item Name="Flex Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp/Flex Msg/Flex Msg.lvclass"/>
+				<Item Name="Show Actor Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp/Show Actor Msg/Show Actor Msg.lvclass"/>
+				<Item Name="Sub Panel Insertion Msg.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Msg.lvlibp/Sub Panel Insertion Msg/Sub Panel Insertion Msg.lvclass"/>
+			</Item>
+			<Item Name="HDH.Actor Framework.Core.Utility.lvlibp" Type="LVLibp" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp">
+				<Item Name="Actor" Type="Folder">
+					<Item Name="Private" Type="Folder">
+						<Item Name="Private Actor.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/Actor/Private/Private Actor/Private Actor.lvclass"/>
+					</Item>
+					<Item Name="Get Actor Identifier from Actor.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/Actor/Get Actor Identifier from Actor.vi"/>
+					<Item Name="Get Actor Identifier from Enqueuer.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/Actor/Get Actor Identifier from Enqueuer.vi"/>
+				</Item>
+				<Item Name="Object" Type="Folder">
+					<Item Name="To Default Object.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/Object/To Default Object.vi"/>
+				</Item>
+				<Item Name="PPL" Type="Folder">
+					<Item Name="List All PPL Classes.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/PPL/List All PPL Classes.vi"/>
+					<Item Name="Obtain Filtered PPL Class List.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/PPL/Obtain Filtered PPL Class List.vi"/>
+					<Item Name="PPL Folder Path.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/PPL/PPL Folder Path.vi"/>
+				</Item>
+				<Item Name="HDH.Actor Framework.Core.Utility_Application Directory.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/1abvi3w/vi.lib/Utility/file.llb/HDH.Actor Framework.Core.Utility_Application Directory.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Utility_Get File Extension.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.Actor Framework.Core.Utility_Get File Extension.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Utility_NI_FileType.lvlib" Type="Library" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/HDH.Actor Framework.Core.Utility_NI_FileType.lvlib"/>
+				<Item Name="HDH.Actor Framework.Core.Utility_NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/HDH.Actor Framework.Core.Utility_NI_PackedLibraryUtility.lvlib"/>
+			</Item>
+			<Item Name="HDH.Actor Framework.Core.Instrument Driver.lvlibp" Type="LVLibp" URL="../../../../PPL/HDH.Actor Framework.Core.Instrument Driver.lvlibp">
+				<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../../../PPL/HDH.Actor Framework.Core.Instrument Driver.lvlibp/Instrument Driver/Instrument Driver.lvclass"/>
+			</Item>
+		</Item>
+		<Item Name="Instrument Handler.lvlib" Type="Library" URL="../Instrument Handler.lvlib"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
+				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
+				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+			</Item>
+			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+		</Item>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="HDH.Actor Framework.Core.Instrument Handler" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A05DBFDB-F183-4E27-BFC4-13796D2C74F0}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">HDH.Actor Framework.Core.Instrument Handler</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Current projects/WS/PPL</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{8FEE1325-87C3-43A6-A8AD-76BEB159E2F3}</Property>
+				<Property Name="Bld_version.build" Type="Int">34</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">HDH.Actor Framework.Core.Instrument Handler.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Current projects/WS/PPL/HDH.Actor Framework.Core.Instrument Handler.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Current projects/WS/PPL</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{361BBDCC-3695-44F2-AF58-3CDC2211A531}</Property>
+				<Property Name="Source[0].newName" Type="Str">HDH.Actor Framework.Core.Instrument Handler_</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Instrument Handler.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">HDH.Actor Framework.Core.Instrument Handler</Property>
+				<Property Name="TgtF_internalName" Type="Str">HDH.Actor Framework.Core.Instrument Handler</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
+				<Property Name="TgtF_productName" Type="Str">HDH.Actor Framework.Core.Instrument Handler</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D769EB40-CB26-4220-8004-0476680F23D0}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">HDH.Actor Framework.Core.Instrument Handler.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
+	</Item>
+</Project>
