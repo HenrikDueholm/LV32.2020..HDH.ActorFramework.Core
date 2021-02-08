@@ -53,7 +53,7 @@
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="Editor Message List Creator.vi" Type="VI" URL="../Sequence Editor/Editor Message List Creator.vi"/>
+			<Item Name="Load Messages and Populate Controls.vi" Type="VI" URL="../Sequence Editor/Load Messages and Populate Controls.vi"/>
 		</Item>
 		<Item Name="Compiler.vi" Type="VI" URL="../Sequence Editor/Compiler.vi"/>
 		<Item Name="Editor.vi" Type="VI" URL="../Sequence Editor/Editor.vi"/>
