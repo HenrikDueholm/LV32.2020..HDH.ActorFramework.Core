@@ -194,7 +194,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1109ED98-A06D-4B13-8D43-47FD4BF86C3D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{825C9DE7-57F3-4BC8-AEF8-6F41CDC45B11}</Property>
 				<Property Name="Source[0].newName" Type="Str">HDH.Actor Framework.Core.Data Repository_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -209,7 +209,7 @@
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HDH.Actor Framework.Core.Data Repository</Property>
 				<Property Name="TgtF_internalName" Type="Str">HDH.Actor Framework.Core.Data Repository</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 HenrikDueholm</Property>
 				<Property Name="TgtF_productName" Type="Str">HDH.Actor Framework.Core.Data Repository</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{CBA765C0-6D19-457B-BD03-09DD11440CCF}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HDH.Actor Framework.Core.Data Repository.lvlibp</Property>

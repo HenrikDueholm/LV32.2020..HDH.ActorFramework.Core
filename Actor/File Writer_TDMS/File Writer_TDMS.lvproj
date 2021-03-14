@@ -228,7 +228,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{894DC921-5593-48D6-B01A-C26626E962D2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CC1E87B4-47CD-4E79-8C31-30BAAEDDBF27}</Property>
 				<Property Name="Source[0].newName" Type="Str">HDH.File Writer_TDMS_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -243,7 +243,7 @@
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HDH.Actor Framework.Core.File Writer_TDMS</Property>
 				<Property Name="TgtF_internalName" Type="Str">HDH.Actor Framework.Core.File Writer_TDMS</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 HenrikDueholm</Property>
 				<Property Name="TgtF_productName" Type="Str">HDH.Actor Framework.Core.File Writer_TDMS</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{4B0C196E-CFB2-4CC4-8211-914E612C7564}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HDH.Actor Framework.Core.File Writer_TDMS.lvlibp</Property>

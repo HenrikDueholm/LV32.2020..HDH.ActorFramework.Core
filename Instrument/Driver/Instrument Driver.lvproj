@@ -38,7 +38,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C3B3CCD3-03E1-4843-BA1E-152FAF5A8D0A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F0413CD1-E9F6-4AF1-9309-ED11CAF82292}</Property>
 				<Property Name="Source[0].newName" Type="Str">HDH.Actor Framework.Core.Instrument Driver_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -53,7 +53,7 @@
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Instrument Driver</Property>
 				<Property Name="TgtF_internalName" Type="Str">Instrument Driver</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 HenrikDueholm</Property>
 				<Property Name="TgtF_productName" Type="Str">Instrument Driver</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B32B8E08-AA1F-4B7D-A095-06D43A390E57}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HDH.Actor Framework.Core.Instrument Driver.lvlibp</Property>

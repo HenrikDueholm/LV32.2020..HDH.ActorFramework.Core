@@ -107,7 +107,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F80FD3F4-5258-47D8-B11E-236289C3EE61}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8E16DD70-76E8-4A1A-83AC-169AF6FE9814}</Property>
 				<Property Name="Source[0].newName" Type="Str">HDH.Actor Framework.Core.Msg_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -122,7 +122,7 @@
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Msg</Property>
 				<Property Name="TgtF_internalName" Type="Str">Msg</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 HenrikDueholm</Property>
 				<Property Name="TgtF_productName" Type="Str">Msg</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1025CA40-0B99-4425-A9CB-3717EE90C9C3}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HDH.Actor Framework.Core.Msg.lvlibp</Property>

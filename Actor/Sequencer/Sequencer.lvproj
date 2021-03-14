@@ -266,7 +266,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C6BEBFE2-9829-4D89-A033-DB112359F38D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2619F1D0-85E9-4B88-868B-0525FFDB5C5F}</Property>
 				<Property Name="Source[0].newName" Type="Str">HDH.Actor Framework.Core.Sequencer_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -281,7 +281,7 @@
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HDH.Actor Framework.Core.Sequencer</Property>
 				<Property Name="TgtF_internalName" Type="Str">HDH.Actor Framework.Core.Sequencer</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 HenrikDueholm</Property>
 				<Property Name="TgtF_productName" Type="Str">HDH.Actor Framework.Core.Sequencer</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{642AF3E8-12CE-4AB3-B3EC-A51BEE421DB0}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HDH.Actor Framework.Core.Sequencer.lvlibp</Property>

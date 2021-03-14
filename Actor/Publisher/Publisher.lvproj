@@ -65,6 +65,15 @@
 				<Item Name="Object" Type="Folder">
 					<Item Name="To Default Object.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/Object/To Default Object.vi"/>
 				</Item>
+				<Item Name="PPL" Type="Folder">
+					<Item Name="List All PPL Classes.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/PPL/List All PPL Classes.vi"/>
+					<Item Name="Obtain Filtered PPL Class List.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/PPL/Obtain Filtered PPL Class List.vi"/>
+					<Item Name="PPL Folder Path.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/PPL/PPL Folder Path.vi"/>
+				</Item>
+				<Item Name="HDH.Actor Framework.Core.Utility_Application Directory.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/1abvi3w/vi.lib/Utility/file.llb/HDH.Actor Framework.Core.Utility_Application Directory.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Utility_Get File Extension.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.Actor Framework.Core.Utility_Get File Extension.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Utility_NI_FileType.lvlib" Type="Library" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/HDH.Actor Framework.Core.Utility_NI_FileType.lvlib"/>
+				<Item Name="HDH.Actor Framework.Core.Utility_NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../../PPL/HDH.Actor Framework.Core.Utility.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/HDH.Actor Framework.Core.Utility_NI_PackedLibraryUtility.lvlib"/>
 			</Item>
 			<Item Name="HDH.Data.Generic.lvlibp" Type="LVLibp" URL="../../../../PPL/HDH.Data.Generic.lvlibp">
 				<Item Name="Generic Data" Type="Folder">
@@ -144,7 +153,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4A03F508-C5B1-4F72-9636-5E7449249CFA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A9987CCF-DD66-40BF-A95B-28A195767EBF}</Property>
 				<Property Name="Source[0].newName" Type="Str">HDH.Actor Framework.Core.Publisher_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -159,7 +168,7 @@
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HDH.Actor Framework.Core.Publisher</Property>
 				<Property Name="TgtF_internalName" Type="Str">HDH.Actor Framework.Core.Publisher</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 HenrikDueholm</Property>
 				<Property Name="TgtF_productName" Type="Str">HDH.Actor Framework.Core.Publisher</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8A322E53-AB46-4433-A5E6-237BB7356FDA}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HDH.Actor Framework.Core.Publisher.lvlibp</Property>

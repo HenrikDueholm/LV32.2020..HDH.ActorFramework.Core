@@ -49,7 +49,7 @@
 						<Item Name="Save Sequence.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Save Sequence.vi"/>
 					</Item>
 					<Item Name="subVIs" Type="Folder">
-						<Item Name="Editor Message List Creator.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Editor Message List Creator.vi"/>
+						<Item Name="Load Messages and Populate Controls.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Load Messages and Populate Controls.vi"/>
 					</Item>
 					<Item Name="Compiler.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Compiler.vi"/>
 					<Item Name="Editor.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/Sequence Editor/Editor.vi"/>
@@ -76,22 +76,22 @@
 				<Item Name="HDH.Actor Framework.Core.Sequencer_AddNamedSemaphorePrefix.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_AddNamedSemaphorePrefix.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Check if File or Folder Exists.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.Actor Framework.Core.Sequencer_Check if File or Folder Exists.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Clear Errors.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.Actor Framework.Core.Sequencer_Clear Errors.vi"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Delimited String to 1D String Array.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/AdvancedString/HDH.Actor Framework.Core.Sequencer_Delimited String to 1D String Array.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Error Cluster From Error Code.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.Actor Framework.Core.Sequencer_Error Cluster From Error Code.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Get File Extension.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.Actor Framework.Core.Sequencer_Get File Extension.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Get LV Class Default Value.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/LVClass/HDH.Actor Framework.Core.Sequencer_Get LV Class Default Value.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Get LV Class Path.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/LVClass/HDH.Actor Framework.Core.Sequencer_Get LV Class Path.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_GetNamedSemaphorePrefix.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_GetNamedSemaphorePrefix.vi"/>
-				<Item Name="HDH.Actor Framework.Core.Sequencer_List Directory and LLBs.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.Actor Framework.Core.Sequencer_List Directory and LLBs.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_NI_FileType.lvlib" Type="Library" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/HDH.Actor Framework.Core.Sequencer_NI_FileType.lvlib"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/HDH.Actor Framework.Core.Sequencer_NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Not A Semaphore.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Not A Semaphore.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Obtain Semaphore Reference.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Obtain Semaphore Reference.vi"/>
-				<Item Name="HDH.Actor Framework.Core.Sequencer_Recursive File List.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.Actor Framework.Core.Sequencer_Recursive File List.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Release Semaphore Reference.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Release Semaphore Reference.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Release Semaphore.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Release Semaphore.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_RemoveNamedSemaphorePrefix.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Semaphore RefNum" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Semaphore RefNum"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Semaphore Refnum Core.ctl" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Semaphore Refnum Core.ctl"/>
+				<Item Name="HDH.Actor Framework.Core.Sequencer_Space Constant.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/HDH.Actor Framework.Core.Sequencer_Space Constant.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Trim Whitespace.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.Actor Framework.Core.Sequencer_Trim Whitespace.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_Validate Semaphore Size.vi" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/semaphor.llb/HDH.Actor Framework.Core.Sequencer_Validate Semaphore Size.vi"/>
 				<Item Name="HDH.Actor Framework.Core.Sequencer_whitespace.ctl" Type="VI" URL="../../../../PPL/HDH.Actor Framework.Core.Sequencer.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.Actor Framework.Core.Sequencer_whitespace.ctl"/>
@@ -275,6 +275,96 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="HDH.ClassLoader.lvlibp" Type="LVLibp" URL="../../../../PPL/HDH.ClassLoader.lvlibp">
+				<Item Name="Control Action" Type="Folder">
+					<Item Name="Populate Listbox.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Control Action/Populate Listbox.vi"/>
+					<Item Name="Populate Ring.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Control Action/Populate Ring.vi"/>
+					<Item Name="Populate Tree.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Control Action/Populate Tree.vi"/>
+				</Item>
+				<Item Name="Info" Type="Folder">
+					<Item Name="Get Class Child Count.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Info/Get Class Child Count.vi"/>
+					<Item Name="Get Class Hierarchy.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Info/Get Class Hierarchy.vi"/>
+					<Item Name="Get Class Info.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Info/Get Class Info.vi"/>
+					<Item Name="Get Class Members.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Info/Get Class Members.vi"/>
+					<Item Name="Get Class Path.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Info/Get Class Path.vi"/>
+					<Item Name="List Class Hierarchies.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Info/List Class Hierarchies.vi"/>
+					<Item Name="List Class Paths.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Info/List Class Paths.vi"/>
+					<Item Name="List Classes and Interfaces.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Info/List Classes and Interfaces.vi"/>
+				</Item>
+				<Item Name="Sub" Type="Folder">
+					<Item Name="Cache" Type="Folder">
+						<Item Name="Cache_Get Path to Cache from Class Name.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Get Path to Cache from Class Name.vi"/>
+						<Item Name="Cache_Hierarchy Global.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Hierarchy Global.vi"/>
+						<Item Name="Cache_Hierarchy Global_Load All.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Hierarchy Global_Load All.vi"/>
+						<Item Name="Cache_Hierarchy Global_Write.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Hierarchy Global_Write.vi"/>
+						<Item Name="Cache_Hierarchy Load.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Hierarchy Load.vi"/>
+						<Item Name="Cache_Info Global.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Info Global.vi"/>
+						<Item Name="Cache_Info Global_Load All.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Info Global_Load All.vi"/>
+						<Item Name="Cache_Info Global_Write.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Info Global_Write.vi"/>
+						<Item Name="Cache_Info Load.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Info Load.vi"/>
+						<Item Name="Cache_Members Global.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Members Global.vi"/>
+						<Item Name="Cache_Members Global_Load All.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Members Global_Load All.vi"/>
+						<Item Name="Cache_Members Global_Write.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Members Global_Write.vi"/>
+						<Item Name="Cache_Members Load.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Members Load.vi"/>
+						<Item Name="Cache_Path Global.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Path Global.vi"/>
+						<Item Name="Cache_Path Global_Read.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Path Global_Read.vi"/>
+						<Item Name="Cache_Path Global_Write.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Path Global_Write.vi"/>
+						<Item Name="Cache_PPL Global.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_PPL Global.vi"/>
+						<Item Name="Cache_PPL Global_List Cache Files.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_PPL Global_List Cache Files.vi"/>
+						<Item Name="Cache_Save PPL Info.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Cache/Cache_Save PPL Info.vi"/>
+					</Item>
+					<Item Name="Ctl" Type="Folder">
+						<Item Name="Ctl_Class Info.ctl" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Ctl/Ctl_Class Info.ctl"/>
+						<Item Name="Ctl_Front-load Scope.ctl" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Ctl/Ctl_Front-load Scope.ctl"/>
+						<Item Name="Ctl_Hierarchy Cluster.ctl" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Ctl/Ctl_Hierarchy Cluster.ctl"/>
+						<Item Name="Ctl_Member Map.ctl" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Ctl/Ctl_Member Map.ctl"/>
+						<Item Name="Ctl_PPL Details.ctl" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Ctl/Ctl_PPL Details.ctl"/>
+						<Item Name="Ctl_Un-load Scope.ctl" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Ctl/Ctl_Un-load Scope.ctl"/>
+					</Item>
+					<Item Name="Data Extraction" Type="Folder">
+						<Item Name="Sub" Type="Folder">
+							<Item Name="Acquire Class Details_Get Member VIs.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Data Extraction/Sub/Acquire Class Details_Get Member VIs.vi"/>
+						</Item>
+						<Item Name="Acquire Class Details.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Data Extraction/Acquire Class Details.vi"/>
+						<Item Name="Check if PPL is Cached.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Data Extraction/Check if PPL is Cached.vi"/>
+						<Item Name="List Classes in PPL.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Data Extraction/List Classes in PPL.vi"/>
+						<Item Name="List PPLs.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Data Extraction/List PPLs.vi"/>
+					</Item>
+					<Item Name="Path" Type="Folder">
+						<Item Name="Path_Check if File or Folder Exists.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Path/Path_Check if File or Folder Exists.vi"/>
+						<Item Name="Path_HDH Class Loader Folder.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Path/Path_HDH Class Loader Folder.vi"/>
+						<Item Name="Path_PPL Folder.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Sub/Path/Path_PPL Folder.vi"/>
+					</Item>
+				</Item>
+				<Item Name="Front-load.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Front-load.vi"/>
+				<Item Name="Get Base Class Name and Path.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Get Base Class Name and Path.vi"/>
+				<Item Name="HDH.ClassLoader_1D String Array to Delimited String.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/AdvancedString/HDH.ClassLoader_1D String Array to Delimited String.vi"/>
+				<Item Name="HDH.ClassLoader_8.6CompatibleGlobalVar.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/config.llb/HDH.ClassLoader_8.6CompatibleGlobalVar.vi"/>
+				<Item Name="HDH.ClassLoader_Check if File or Folder Exists.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.ClassLoader_Check if File or Folder Exists.vi"/>
+				<Item Name="HDH.ClassLoader_Clear Errors.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.ClassLoader_Clear Errors.vi"/>
+				<Item Name="HDH.ClassLoader_Create Directory Recursive.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.ClassLoader_Create Directory Recursive.vi"/>
+				<Item Name="HDH.ClassLoader_Delimited String to 1D String Array.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/AdvancedString/HDH.ClassLoader_Delimited String to 1D String Array.vi"/>
+				<Item Name="HDH.ClassLoader_Error Cluster From Error Code.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.ClassLoader_Error Cluster From Error Code.vi"/>
+				<Item Name="HDH.ClassLoader_Get File Extension.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/HDH.ClassLoader_Get File Extension.vi"/>
+				<Item Name="HDH.ClassLoader_Get LV Class Default Value.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/LVClass/HDH.ClassLoader_Get LV Class Default Value.vi"/>
+				<Item Name="HDH.ClassLoader_Get LV Class Path.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/LVClass/HDH.ClassLoader_Get LV Class Path.vi"/>
+				<Item Name="HDH.ClassLoader_Get System Directory.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/sysdir.llb/HDH.ClassLoader_Get System Directory.vi"/>
+				<Item Name="HDH.ClassLoader_Member VI Info.ctl" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/Data Type/HDH.ClassLoader_Member VI Info.ctl"/>
+				<Item Name="HDH.ClassLoader_NI_FileType.lvlib" Type="Library" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/HDH.ClassLoader_NI_FileType.lvlib"/>
+				<Item Name="HDH.ClassLoader_NI_LVConfig.lvlib" Type="Library" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/config.llb/HDH.ClassLoader_NI_LVConfig.lvlib"/>
+				<Item Name="HDH.ClassLoader_NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/HDH.ClassLoader_NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="HDH.ClassLoader_Space Constant.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/HDH.ClassLoader_Space Constant.vi"/>
+				<Item Name="HDH.ClassLoader_System Directory Type.ctl" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/sysdir.llb/HDH.ClassLoader_System Directory Type.ctl"/>
+				<Item Name="HDH.ClassLoader_Trim Whitespace.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.ClassLoader_Trim Whitespace.vi"/>
+				<Item Name="HDH.ClassLoader_whitespace.ctl" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/1abvi3w/vi.lib/Utility/error.llb/HDH.ClassLoader_whitespace.ctl"/>
+				<Item Name="Load Class by Name.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Load Class by Name.vi"/>
+				<Item Name="Register PPLs.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Register PPLs.vi"/>
+				<Item Name="Remove all Cached Files from System.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Remove all Cached Files from System.vi"/>
+				<Item Name="Un-load.vi" Type="VI" URL="../../../../PPL/HDH.ClassLoader.lvlibp/Un-load.vi"/>
+			</Item>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HDH.Actor Framework.Core.Instrument Handler" Type="Packed Library">
@@ -302,7 +392,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{361BBDCC-3695-44F2-AF58-3CDC2211A531}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4F380B16-85EA-4EEA-B8E8-801A395B0D1E}</Property>
 				<Property Name="Source[0].newName" Type="Str">HDH.Actor Framework.Core.Instrument Handler_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -317,7 +407,7 @@
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HDH.Actor Framework.Core.Instrument Handler</Property>
 				<Property Name="TgtF_internalName" Type="Str">HDH.Actor Framework.Core.Instrument Handler</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 HenrikDueholm</Property>
 				<Property Name="TgtF_productName" Type="Str">HDH.Actor Framework.Core.Instrument Handler</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D769EB40-CB26-4220-8004-0476680F23D0}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HDH.Actor Framework.Core.Instrument Handler.lvlibp</Property>

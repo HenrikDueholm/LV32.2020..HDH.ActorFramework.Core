@@ -85,7 +85,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3B188D69-EB6C-46C7-998F-B47B68232E3C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{75347D6C-C3A6-4450-B1C5-3BB9AFD2938A}</Property>
 				<Property Name="Source[0].newName" Type="Str">Driver Template_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -100,7 +100,6 @@
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Driver Project</Property>
 				<Property Name="TgtF_internalName" Type="Str">Driver Project</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
 				<Property Name="TgtF_productName" Type="Str">Driver Project</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AC63E134-D798-468B-807C-D5A14A0EC6EE}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Driver Project.lvlibp</Property>

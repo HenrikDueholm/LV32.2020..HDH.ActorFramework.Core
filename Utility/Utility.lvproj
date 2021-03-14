@@ -70,7 +70,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CF8E4EE3-EF43-4EA6-91E7-930292C75AE3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2E6F2790-4F17-430D-BA19-32B0235B1B9D}</Property>
 				<Property Name="Source[0].newName" Type="Str">HDH.Actor Framework.Core.Utility_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -82,11 +82,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Danfoss</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HDH.Actor Framework.Core.Utility</Property>
 				<Property Name="TgtF_internalName" Type="Str">HDH.Actor Framework.Core.Utility</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Danfoss</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 HenrikDueholm</Property>
 				<Property Name="TgtF_productName" Type="Str">HDH.Actor Framework.Core.Utility</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{30D34A6B-2978-4A90-9AAD-BD681186A9AA}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HDH.Actor Framework.Core.Utility.lvlibp</Property>
